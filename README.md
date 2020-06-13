@@ -5,12 +5,6 @@ people by providing them a navigation device through which they can visualize th
 can react accordingly with the help of the device. Our device gives an Audio feedback of the recognized Objects infront of it along 
 with the approximate distance.
 
-## Technical Overview
-which uses pi camera and mobileNet SSD to classify obstacles and measure distance using ultrasonic sensors.  
-Conversion of obstacle detected as a warning signal in speech using espeak module.  
-Implemented the project on raspberry pi and interconnected all the hardware components using GPIO pins to switch between modes 
-through buttons. Deployed object detection model as an API service on flask server on heroku platform.
-
 ## Features of the Project
 * Obstacle Detection, Classification and Localization.
 * Voice Feedback through Earphones regarding the detected Obstacles.
