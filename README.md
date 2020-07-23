@@ -1,16 +1,22 @@
 # Intelligent-Stick-for-Visually-Impaired
+**Product Image**
+[![Intelligent Navigation Stick](/images/navigation-stick.png)]()
 ## Introduction
-This project was a part of out Btech Hardware Project. The main intent behind taking up this project is to help the blind 
+This project was a part of out Btech Hardware Project in our Sophmore Year. The main intent behind taking up this project is to help the blind 
 people by providing them a navigation device through which they can visualize things in front of them and
 can react accordingly with the help of the device. Our device gives an Audio feedback of the recognized Objects infront of it along 
 with the approximate distance.
+I along with my batchmate Aman Rai were involved in building this project from scratch. This bagged one of the best projects title in our showcase and presentation. 
 
-## Features of the Project
+
+## Features: 
 * Obstacle Detection, Classification and Localization.
 * Voice Feedback through Earphones regarding the detected Obstacles.
 * Distance Measuring using Ultrasonic Sensor.
 * Live Video as well as Still Image capture using Pi Camera for processing.
 * Push Buttons to choose specific mode while navigation.
+
+**Detailed Thesis and working has been provided in the thesis report in the Repository.**
 ## Technology Stack
 * Python+Flask Server for API requests
 * OpenCV for Image Recognition
@@ -23,8 +29,11 @@ with the approximate distance.
 * Raspberry Pi Camera V2
 * Resistors, Push Buttons and Connecting Wires
 * Battery Backup
-## Architecture
 
+[![Intelligent Navigation Stick](/images/final_deployed_view.png)]()
+## Results
+[![Intelligent Navigation Stick](/images/testImages.png)]()
+[![Intelligent Navigation Stick](/images/testResults.png)]()
 ## Working
 In this project we will be processing images taken through Pi Camera mounted on our
 smart Navigation Stick. In the Object Detection Mode the Obstacles in front of the
@@ -35,5 +44,11 @@ audio feedback using python ESpeak module and will be fed into the earphones of 
 user. The live video will be processed using OpenCV libraries and SSD MobileNet
 Lite algorithm on real time frames to produce detections.This mode is active when we
 press the Navigation button on the stick.
+
+## About me
+I am Computer Science Undergrad from IIIT Gwalior. Former intern at GoJek, passionate dev and tech enthusiast. I keep myself involved in building stuff and experimenting with new things. Do checkout my portfolio and connect with me on LinkedIn. 
+- **Portfolio** : <a href="https://prj-prajwal.netlify.app/" target="_blank">`prj-prajwal.netlify.app`</a>
+- **LinkedIn** <a href="https://www.linkedin.com/in/prajwal714/" target="_blank">`linkedin.com/in/prajwal714`</a>
+
 
 
