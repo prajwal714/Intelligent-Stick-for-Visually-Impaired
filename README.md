@@ -30,7 +30,7 @@ I along with my batchmate Aman Rai were involved in building this project from s
 * Resistors, Push Buttons and Connecting Wires
 * Battery Backup
 
-[![Intelligent Navigation Stick](/images/final_deployed_view.png)]()
+[![Intelligent Navigation Stick](/images/final_deployed_view.jpg)]()
 ## Results
 [![Intelligent Navigation Stick](/images/testImages.png)]()
 [![Intelligent Navigation Stick](/images/testResults.png)]()
