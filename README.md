@@ -1,6 +1,9 @@
 # Intelligent-Stick-for-Visually-Impaired
 **Product Image**
-[![Intelligent Navigation Stick](/images/navigation-stick.png)]()
+
+
+<img src="/images/navigation-stick.png" height="500">
+
 ## Introduction
 This project was a part of out Btech Hardware Project in our Sophmore Year. The main intent behind taking up this project is to help the blind 
 people by providing them a navigation device through which they can visualize things in front of them and
@@ -30,10 +33,20 @@ I along with my batchmate Aman Rai were involved in building this project from s
 * Resistors, Push Buttons and Connecting Wires
 * Battery Backup
 
-[![Intelligent Navigation Stick](/images/final_deployed_view.jpg)]()
+<img src="/images/final_deployed_view.jpg" width="500">
+
+
 ## Results
-[![Intelligent Navigation Stick](/images/testImages.png)]()
-[![Intelligent Navigation Stick](/images/testResults.png)]()
+
+
+<p align="center">
+    <img src="/images/testImages.png" alt="test Images" width="700">
+<img src="/images/testResults.png" alt="test Results" width="700">
+  </p>
+
+
+
+
 ## Working
 In this project we will be processing images taken through Pi Camera mounted on our
 smart Navigation Stick. In the Object Detection Mode the Obstacles in front of the
